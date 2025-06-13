@@ -213,7 +213,7 @@ GET  /api/diagnosis/history  # Get diagnosis history
 
 ## 📞 Support
 - **Issues**: [GitHub Issues](https://github.com/Git-brintsi20/HackByte_3.0/issues)
-- **Email**: shhiki2hustle@gmail.com
+- **Email**: shiki2hustle@gmail.com
 
 ## ⭐ Show Your Support
 
