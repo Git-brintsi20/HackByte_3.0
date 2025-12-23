@@ -71,7 +71,7 @@ const CommunityCard = ({ plant }) => {
 
 const CommunityHub = () => {
   return (
-    <div className="max-w-6xl mx-auto px-4 py-8">
+    <div className="max-w-6xl mx-auto p-6">
       <div className="mb-8">
         <h1 className="text-3xl font-bold text-green-800 mb-4">Plant Communities</h1>
         <p className="text-gray-600">

@@ -22,7 +22,7 @@ const RewardsPage = () => {
   const progress = ((points % 100) / 100) * 100;
   
   return (
-    <div className="max-w-4xl mx-auto p-4">
+    <div className="max-w-4xl mx-auto p-6">
       <h1 className="text-2xl font-bold text-green-800 mb-4">Plant Rewards</h1>
       
       {/* Success notification */}

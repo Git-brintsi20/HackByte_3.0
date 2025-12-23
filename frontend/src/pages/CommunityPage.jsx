@@ -78,7 +78,7 @@ const CommunityPage = ({ defaultPlant }) => {
     const plant = plantData[defaultPlant];
 
     if (!plant) {
-        return <div className="max-w-6xl mx-auto px-4 py-8"><h2>Plant community not found.</h2></div>;
+        return <div className="max-w-6xl mx-auto p-6"><h2>Plant community not found.</h2></div>;
     }
 
     const handleSubmitTip = (e) => {
@@ -114,7 +114,7 @@ const CommunityPage = ({ defaultPlant }) => {
     };
 
     return (
-        <div className="max-w-6xl mx-auto px-4 py-8">
+        <div className="max-w-6xl mx-auto p-6">
             {/* Header Section */}
             <div className="flex flex-col md:flex-row items-center md:items-start gap-6 mb-10">
                 <div className="w-full md:w-1/3">

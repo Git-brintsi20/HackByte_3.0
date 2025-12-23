@@ -20,9 +20,9 @@ const Layout = () => {
                 </div>
 
                 {/* Main content area */}
-                <main className="flex-1 p-4 pb-20 md:pb-4">
+                <main className="flex-1 pb-20 md:pb-0">
                     {/* Add RewardIndicator here, perhaps top-right aligned */}
-                    <div className="flex justify-end mb-2">
+                    <div className="flex justify-end p-4 pb-0">
                         <RewardIndicator />
                     </div>
                     <Outlet />

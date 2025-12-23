@@ -119,7 +119,7 @@ const ProfileSettingsPage = () => {
   };
 
   return (
-    <div className="max-w-4xl mx-auto p-4 pb-24">
+    <div className="max-w-4xl mx-auto p-6 pb-24">
       <h1 className="text-2xl font-bold text-green-800 mb-6">Settings</h1>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">

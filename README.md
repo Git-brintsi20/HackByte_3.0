@@ -1,16 +1,101 @@
-# 🌱 PlantZ - AI-Powered Plant Healthcare Platform
+<div align="center">
+  <img src="./frontend/public/logo.png" alt="PlantZ Logo" width="150">
+  
+  # 🌱 PlantZ - AI-Powered Plant Healthcare Platform
 
-[![Node.js](https://img.shields.io/badge/Node.js-v18+-green.svg)](https://nodejs.org/)
-[![React](https://img.shields.io/badge/React-v18+-blue.svg)](https://reactjs.org/)
-[![MongoDB](https://img.shields.io/badge/MongoDB-v6+-green.svg)](https://mongodb.com/)
-[![TensorFlow](https://img.shields.io/badge/TensorFlow-v2.0+-orange.svg)](https://tensorflow.org/)
-[![Gemini API](https://img.shields.io/badge/Gemini-API-purple.svg)](https://ai.google.dev/)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+  [![Node.js](https://img.shields.io/badge/Node.js-v18+-green.svg)](https://nodejs.org/)
+  [![React](https://img.shields.io/badge/React-v18+-blue.svg)](https://reactjs.org/)
+  [![MongoDB](https://img.shields.io/badge/MongoDB-v6+-green.svg)](https://mongodb.com/)
+  [![TensorFlow](https://img.shields.io/badge/TensorFlow-v2.0+-orange.svg)](https://tensorflow.org/)
+  [![Gemini API](https://img.shields.io/badge/Gemini-API-purple.svg)](https://ai.google.dev/)
+  [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
-> **Democratizing Plant Care Through AI-Powered Assistance**
+  ### **Democratizing Plant Care Through AI-Powered Assistance**
 
-PlantZ is an innovative web application that breaks down barriers to plant care by providing AI-powered guidance, interactive plant management, and community-driven support. Our platform combines cutting-edge machine learning with intuitive design to make plant care accessible to everyone.
+  PlantZ is an innovative web application that breaks down barriers to plant care by providing AI-powered guidance, interactive plant management, and community-driven support. Our platform combines cutting-edge machine learning with intuitive design to make plant care accessible to everyone.
+</div>
+
+---
+
+## 📸 Platform Showcase
+
+<table>
+  <tr>
+    <td valign="top" width="50%">
+      <h3 align="center">🏠 Home Dashboard</h3>
+      <img width="100%" src="./frontend/public/Readme/HomePageShowingMultilingualFeature.png" alt="Home Page - Multilingual Feature">
+      <p align="center"><em>Dashboard with multilingual support for global accessibility</em></p>
+    </td>
+    <td valign="top" width="50%">
+      <h3 align="center">🔐 Authentication</h3>
+      <img width="100%" src="./frontend/public/Readme/AuthPageLogin.png" alt="Login Page">
+      <p align="center"><em>Secure authentication with Cloudflare Turnstile</em></p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" width="50%">
+      <h3 align="center">🌿 My Plants Dashboard</h3>
+      <img width="100%" src="./frontend/public/Readme/My_PlantsSectiondashboard.png" alt="My Plants Section">
+      <p align="center"><em>Comprehensive plant management dashboard</em></p>
+    </td>
+    <td valign="top" width="50%">
+      <h3 align="center">💬 AI Chat Assistant</h3>
+      <img width="100%" src="./frontend/public/Readme/ChatAssistant.png" alt="Chat Assistant">
+      <p align="center"><em>Powered by Google Gemini for intelligent plant care advice</em></p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" width="50%">
+      <h3 align="center">🎨 Plant Avatar System</h3>
+      <img width="100%" src="./frontend/public/Readme/AvatarPage1.png" alt="Avatar Customization">
+      <p align="center"><em>Expressive avatars reflecting plant health status</em></p>
+    </td>
+    <td valign="top" width="50%">
+      <h3 align="center">🖼️ Avatar Gallery</h3>
+      <img width="100%" src="./frontend/public/Readme/AvatarGallery.png" alt="Avatar Gallery">
+      <p align="center"><em>Browse and select from various plant personalities</em></p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" width="50%">
+      <h3 align="center">✨ Avatar Animations</h3>
+      <img width="100%" src="./frontend/public/Readme/AvatarAnimations.png" alt="Avatar Animations">
+      <p align="center"><em>Dynamic animations for engaging user experience</em></p>
+    </td>
+    <td valign="top" width="50%">
+      <h3 align="center">🏥 Plant Health Monitor</h3>
+      <img width="100%" src="./frontend/public/Readme/PlantHealthDashboard.png" alt="Plant Health Dashboard">
+      <p align="center"><em>Real-time health tracking and diagnostics</em></p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" width="50%">
+      <h3 align="center">🌐 Community Hub</h3>
+      <img width="100%" src="./frontend/public/Readme/CommunityPage.png" alt="Community Page">
+      <p align="center"><em>Share knowledge and connect with plant enthusiasts</em></p>
+    </td>
+    <td valign="top" width="50%">
+      <h3 align="center">🔔 Notifications Center</h3>
+      <img width="100%" src="./frontend/public/Readme/Notifications.png" alt="Notifications">
+      <p align="center"><em>Smart reminders for watering, fertilizing, and care</em></p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" width="50%">
+      <h3 align="center">👤 User Profile</h3>
+      <img width="100%" src="./frontend/public/Readme/Profile.png" alt="Profile Page">
+      <p align="center"><em>Personalized user dashboard and statistics</em></p>
+    </td>
+    <td valign="top" width="50%">
+      <h3 align="center">⚙️ Settings</h3>
+      <img width="100%" src="./frontend/public/Readme/SettingsPage.png" alt="Settings Page">
+      <p align="center"><em>Customizable preferences and account management</em></p>
+    </td>
+  </tr>
+</table>
+
+---
 
 ## 🚀 Features
 

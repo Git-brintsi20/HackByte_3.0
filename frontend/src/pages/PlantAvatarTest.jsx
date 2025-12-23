@@ -77,13 +77,13 @@ const PlantAvatarTest = () => {
   };
 
   return (
-    <div className="max-w-4xl mx-auto py-8 px-4">
+    <div className="max-w-4xl mx-auto p-6">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
       >
-        <h1 className="text-3xl font-bold text-green-800 mb-6 -mt-10">Plant Avatar System</h1>
+        <h1 className="text-3xl font-bold text-green-800 mb-6">Plant Avatar System</h1>
 
         {/* Interactive Demo Section */}
         <section className="bg-green-50 rounded-lg p-6 mb-8">

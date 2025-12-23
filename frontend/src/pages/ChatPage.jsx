@@ -126,12 +126,12 @@ const ChatPage = () => {
 
     return (
         <motion.div
-            className="flex flex-col min-h-screen bg-green-50 p-4"
+            className="flex flex-col min-h-screen bg-green-50"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
         >
-            <div className="bg-white rounded-lg shadow-md p-4 mb-4 flex justify-between items-center">
+            <div className="bg-white rounded-lg shadow-md p-4 mx-4 my-4 flex justify-between items-center">
                 <h1 className="text-2xl font-bold text-green-800">
                     {plantId ? `Chat with ${currentPlant?.name || 'Plant'}` : 'Plant Chat Assistant'}
                 </h1>
@@ -145,7 +145,7 @@ const ChatPage = () => {
                 )}
             </div>
 
-            <div className="flex flex-col flex-grow bg-white rounded-lg shadow-md overflow-hidden">
+            <div className="flex flex-col flex-grow bg-white rounded-lg shadow-md overflow-hidden mx-4 mb-4">
                 {/* Chat Messages Area */}
                 <div className="flex-grow overflow-y-auto p-4 bg-green-50">
                     {messages.map((msg) => (

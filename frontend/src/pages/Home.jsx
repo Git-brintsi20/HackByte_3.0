@@ -4,9 +4,9 @@ import Emotion from './Emotion.jsx';
 
 const Home = () => {
   return (
-    <div className='flex flex-col items-center justify-start h-screen -mt-16 w-full'>
+    <div className='flex flex-col items-center justify-start h-screen w-full'>
       {/* Main content area with proper margin to accommodate both sidebars */}
-      <div className='w-full md:ml-64 md:mr-64 pt-16 md:pt-6 transition-all duration-300'>
+      <div className='w-full md:ml-64 md:mr-64 pt-6 transition-all duration-300'>
         <div className='flex flex-col items-center justify-center px-4 md:px-8 pb-20 md:pb-8 max-w-4xl mx-auto'>
           <Header />
           {/* Main content from Home.jsx */}

@@ -45,11 +45,11 @@ const NotificationsPage = () => {
     ];
 
     return (
-        <div className="max-w-4xl mx-auto">
-            <h1 className="text-2xl font-bold text-green-800 mb-6 px-4 pt-4">Notifications & Reminders</h1>
+        <div className="max-w-4xl mx-auto p-6">
+            <h1 className="text-2xl font-bold text-green-800 mb-6">Notifications & Reminders</h1>
 
             {/* Demo Component - You can remove this in production */}
-            <div className="px-4 mb-6">
+            <div className="mb-6">
                 <NotificationDemo />
             </div>
 
