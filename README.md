@@ -1,201 +1,230 @@
 <div align="center">
   <img src="./frontend/public/logo.png" alt="PlantZ Logo" width="150">
-  
-  # 🌱 PlantZ - AI-Powered Plant Healthcare Platform
+
+  # PlantZ - AI-Powered Plant Healthcare Platform
 
   [![Node.js](https://img.shields.io/badge/Node.js-v18+-green.svg)](https://nodejs.org/)
   [![React](https://img.shields.io/badge/React-v18+-blue.svg)](https://reactjs.org/)
   [![MongoDB](https://img.shields.io/badge/MongoDB-v6+-green.svg)](https://mongodb.com/)
   [![TensorFlow](https://img.shields.io/badge/TensorFlow-v2.0+-orange.svg)](https://tensorflow.org/)
-  [![Gemini API](https://img.shields.io/badge/Gemini-API-purple.svg)](https://ai.google.dev/)
+  [![Gemini API](https://img.shields.io/badge/Gemini-API-success.svg)](https://ai.google.dev/)
   [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
-  ### **Democratizing Plant Care Through AI-Powered Assistance**
-
-  PlantZ is an innovative web application that breaks down barriers to plant care by providing AI-powered guidance, interactive plant management, and community-driven support. Our platform combines cutting-edge machine learning with intuitive design to make plant care accessible to everyone.
+  <h3>Helping people grow healthier plants with AI, multilingual guidance, and smart care workflows.</h3>
 </div>
 
 ---
 
-## 📸 Platform Showcase
+## Index
+
+- [Demo](#demo)
+- [Screenshots](#screenshots)
+- [Why PlantZ](#why-plantz)
+- [Core Features](#core-features)
+- [Tech Stack](#tech-stack)
+- [Performance Metrics](#performance-metrics)
+- [Architecture](#architecture)
+- [Quick Start](#quick-start)
+- [API Highlights](#api-highlights)
+- [Team](#team)
+- [Acknowledgments](#acknowledgments)
+- [Support](#support)
+
+---
+
+## Demo
+
+<div align="center">
+  <img src="./frontend/public/logo.png" alt="PlantZ Home Icon" width="120">
+  <p><strong>Homepage visual and project demo</strong></p>
+  <img src="./frontend/public/Readme/HomePageShowingMultilingualFeature.png" alt="PlantZ Homepage Preview" width="90%">
+  <br><br>
+  <a href="https://youtu.be/NiXpc6xm7Yo?si=Z1QWy18o-_eTSpnh" target="_blank">
+    <img src="https://img.shields.io/badge/Watch%20Demo%20Video-%E2%96%B6%20YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch Demo Video">
+  </a>
+</div>
+
+---
+
+## Screenshots
 
 <table>
   <tr>
     <td valign="top" width="50%">
-      <h3 align="center">🏠 Home Dashboard</h3>
+      <h3 align="center">Home Dashboard</h3>
       <img width="100%" src="./frontend/public/Readme/HomePageShowingMultilingualFeature.png" alt="Home Page - Multilingual Feature">
-      <p align="center"><em>Dashboard with multilingual support for global accessibility</em></p>
+      <p align="center"><em>Multilingual dashboard designed for accessible plant care.</em></p>
     </td>
     <td valign="top" width="50%">
-      <h3 align="center">🔐 Authentication</h3>
+      <h3 align="center">Authentication</h3>
       <img width="100%" src="./frontend/public/Readme/AuthPageLogin.png" alt="Login Page">
-      <p align="center"><em>Secure authentication with Cloudflare Turnstile</em></p>
+      <p align="center"><em>Secure sign-in and verification with Cloudflare Turnstile.</em></p>
     </td>
   </tr>
   <tr>
     <td valign="top" width="50%">
-      <h3 align="center">🌿 My Plants Dashboard</h3>
+      <h3 align="center">My Plants Dashboard</h3>
       <img width="100%" src="./frontend/public/Readme/My_PlantsSectiondashboard.png" alt="My Plants Section">
-      <p align="center"><em>Comprehensive plant management dashboard</em></p>
+      <p align="center"><em>Track all plants, routines, and progress in one place.</em></p>
     </td>
     <td valign="top" width="50%">
-      <h3 align="center">💬 AI Chat Assistant</h3>
+      <h3 align="center">AI Chat Assistant</h3>
       <img width="100%" src="./frontend/public/Readme/ChatAssistant.png" alt="Chat Assistant">
-      <p align="center"><em>Powered by Google Gemini for intelligent plant care advice</em></p>
+      <p align="center"><em>Conversational plant guidance powered by Gemini API.</em></p>
     </td>
   </tr>
   <tr>
     <td valign="top" width="50%">
-      <h3 align="center">🎨 Plant Avatar System</h3>
+      <h3 align="center">Plant Avatar System</h3>
       <img width="100%" src="./frontend/public/Readme/AvatarPage1.png" alt="Avatar Customization">
-      <p align="center"><em>Expressive avatars reflecting plant health status</em></p>
+      <p align="center"><em>Emotional avatars represent real-time plant health.</em></p>
     </td>
     <td valign="top" width="50%">
-      <h3 align="center">🖼️ Avatar Gallery</h3>
+      <h3 align="center">Avatar Gallery</h3>
       <img width="100%" src="./frontend/public/Readme/AvatarGallery.png" alt="Avatar Gallery">
-      <p align="center"><em>Browse and select from various plant personalities</em></p>
+      <p align="center"><em>Discover playful and meaningful plant personalities.</em></p>
     </td>
   </tr>
   <tr>
     <td valign="top" width="50%">
-      <h3 align="center">✨ Avatar Animations</h3>
+      <h3 align="center">Avatar Animations</h3>
       <img width="100%" src="./frontend/public/Readme/AvatarAnimations.png" alt="Avatar Animations">
-      <p align="center"><em>Dynamic animations for engaging user experience</em></p>
+      <p align="center"><em>Rich animations improve engagement and retention.</em></p>
     </td>
     <td valign="top" width="50%">
-      <h3 align="center">🏥 Plant Health Monitor</h3>
+      <h3 align="center">Plant Health Monitor</h3>
       <img width="100%" src="./frontend/public/Readme/PlantHealthDashboard.png" alt="Plant Health Dashboard">
-      <p align="center"><em>Real-time health tracking and diagnostics</em></p>
+      <p align="center"><em>Health trends, alerts, and actionable diagnostics.</em></p>
     </td>
   </tr>
   <tr>
     <td valign="top" width="50%">
-      <h3 align="center">🌐 Community Hub</h3>
+      <h3 align="center">Community Hub</h3>
       <img width="100%" src="./frontend/public/Readme/CommunityPage.png" alt="Community Page">
-      <p align="center"><em>Share knowledge and connect with plant enthusiasts</em></p>
+      <p align="center"><em>Knowledge sharing, discussion, and community support.</em></p>
     </td>
     <td valign="top" width="50%">
-      <h3 align="center">🔔 Notifications Center</h3>
+      <h3 align="center">Notifications Center</h3>
       <img width="100%" src="./frontend/public/Readme/Notifications.png" alt="Notifications">
-      <p align="center"><em>Smart reminders for watering, fertilizing, and care</em></p>
+      <p align="center"><em>Smart reminders for watering, treatment, and upkeep.</em></p>
     </td>
   </tr>
   <tr>
     <td valign="top" width="50%">
-      <h3 align="center">👤 User Profile</h3>
+      <h3 align="center">User Profile</h3>
       <img width="100%" src="./frontend/public/Readme/Profile.png" alt="Profile Page">
-      <p align="center"><em>Personalized user dashboard and statistics</em></p>
+      <p align="center"><em>Personalized progress, settings, and activity history.</em></p>
     </td>
     <td valign="top" width="50%">
-      <h3 align="center">⚙️ Settings</h3>
+      <h3 align="center">Settings</h3>
       <img width="100%" src="./frontend/public/Readme/SettingsPage.png" alt="Settings Page">
-      <p align="center"><em>Customizable preferences and account management</em></p>
+      <p align="center"><em>Fine-grained preferences for a tailored experience.</em></p>
     </td>
   </tr>
 </table>
 
 ---
 
-## 🚀 Features
+## Why PlantZ
 
-### 🤖 AI-Powered Plant Assistant
-- **Gemini API Integration**: Natural language plant care conversations
-- **Real-time Advice**: Instant responses to plant care questions
-- **Context-Aware**: Maintains conversation history for personalized assistance
-- **Multilingual Support**: Breaking language barriers in plant care
+PlantZ makes plant care practical, intelligent, and accessible. It combines conversational AI, computer vision, multilingual UX, and community features to support beginners and experienced growers alike.
 
-### 🌿 Interactive Plant Management
-- **Plant Avatars**: Expressive visual representations of plant health
-- **Smart Dashboard**: Intuitive overview of all your plants
-- **Care Scheduling**: Automated reminders and notifications
-- **Progress Tracking**: Monitor plant health over time
+---
 
-### 🔬 Disease Detection & Diagnosis
-- **CNN-Powered Analysis**: 98% accuracy in disease identification
-- **Instant Diagnosis**: Upload plant photos for immediate analysis
-- **Treatment Recommendations**: Evidence-based care suggestions
-- **Prevention Tips**: Proactive plant health management
+## Core Features
 
-### 💰 Voucher-Sponsor System
-- **Economic Accessibility**: Reduced barriers through sponsored resources
-- **Community Support**: Connect with gardening suppliers and experts
-- **Sustainable Ecosystem**: Mutually beneficial for users and sponsors
+### AI-Powered Plant Assistant
+- Gemini API integration for natural, contextual conversations
+- Instant responses to plant care questions
+- Conversation memory for personalized assistance
+- Multilingual support for broader accessibility
 
-## 🛠️ Tech Stack
+### Interactive Plant Management
+- Avatar-based plant status visualization
+- Unified dashboard for monitoring all plants
+- Reminder-driven care scheduling
+- Progress and wellness tracking over time
+
+### Disease Detection and Diagnosis
+- CNN-powered image analysis with high accuracy
+- Fast symptom-based diagnosis workflow
+- Actionable treatment recommendations
+- Preventive care guidance
+
+### Voucher-Sponsor Ecosystem
+- Resource support for users through sponsor partnerships
+- Community-oriented model for affordability and reach
+- Sustainable value loop for users, mentors, and sponsors
+
+---
+
+## Tech Stack
 
 ### Frontend
-- **React 18+** - Modern UI framework
-- **Tailwind CSS** - Utility-first styling
-- **Framer Motion** - Smooth animations
-- **Cloudinary** - Image management
+- React 18+
+- Tailwind CSS
+- Framer Motion
+- Cloudinary
 
 ### Backend
-- **Node.js 18+** - Server runtime
-- **Express.js** - Web framework
-- **MongoDB 6+** - NoSQL database
-- **JWT** - Authentication
-- **Cloudflare Turnstile** - Security
+- Node.js 18+
+- Express.js
+- MongoDB 6+
+- JWT Authentication
+- Cloudflare Turnstile
 
-### AI/ML
-- **Google Gemini API** - Conversational AI
-- **TensorFlow** - Disease detection model
-- **Scikit-learn** - Machine learning utilities
-- **OpenCV** - Image processing
+### AI and ML
+- Google Gemini API
+- TensorFlow
+- Scikit-learn
+- OpenCV
 
-## 📊 Performance Metrics
+---
 
-Our AI models deliver exceptional accuracy:
+## Performance Metrics
 
 | Component | Accuracy | Precision | Recall | F1-Score |
 |-----------|----------|-----------|--------|----------|
 | Disease Detection | 98% | 98% | 98% | 98% |
 | Plant Identification | 95% | 94% | 96% | 95% |
 
-**Dataset**: 70,029 training images, 17,572 testing images
+Dataset size: 70,029 training images and 17,572 testing images.
 
-## 🏗️ Architecture
+---
 
-```
-┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│   React Client  │    │   Express API   │    │   MongoDB       │
-│   (Frontend)    │◄──►│   (Backend)     │◄──►│   (Database)    │
-└─────────────────┘    └─────────────────┘    └─────────────────┘
-         │                       │                       │
-         │              ┌─────────────────┐             │
-         └──────────────►│   Gemini API    │             │
-                        │   (AI Assistant)│             │
-                        └─────────────────┘             │
-                                  │                     │
-                        ┌─────────────────┐             │
-                        │   TensorFlow    │             │
-                        │   (CNN Model)   │◄────────────┘
-                        └─────────────────┘
+## Architecture
+
+```text
+React Client <-> Express API <-> MongoDB
+      |              |
+      |              +-> Gemini API (Assistant)
+      +-> TensorFlow CNN (Disease Detection)
 ```
 
-## 🚀 Quick Start
+---
+
+## Quick Start
 
 ### Prerequisites
-- Node.js 18+ 
+- Node.js 18+
 - MongoDB 6+
 - npm or yarn
 
 ### Installation
 
 ```bash
-# Clone the repository
 git clone https://github.com/Divanshu0212/HackByte_3.0.git
 cd HackByte_3.0
 
-# Install dependencies
+# root dependencies
 npm install
 
-# Install frontend dependencies
+# frontend dependencies
 cd frontend
 npm install
 cd ..
 
-# Install backend dependencies
+# backend dependencies
 cd backend
 npm install
 cd ..
@@ -203,9 +232,10 @@ cd ..
 
 ### Environment Setup
 
-Create `.env` files in both frontend and backend directories:
+Create `.env` files in both frontend and backend directories.
 
-**Backend `.env`**
+Backend `.env`:
+
 ```env
 PORT=5000
 MONGODB_URI=your_mongodb_connection_string
@@ -216,99 +246,96 @@ CLOUDINARY_API_KEY=your_cloudinary_key
 CLOUDINARY_API_SECRET=your_cloudinary_secret
 ```
 
-**Frontend `.env`**
+Frontend `.env`:
+
 ```env
 REACT_APP_API_URL=http://localhost:5000
 REACT_APP_TURNSTILE_SITE_KEY=your_turnstile_site_key
 ```
 
-### Running the Application
+### Run
 
 ```bash
-# Development mode (runs both frontend and backend)
+# Run full project in dev mode
 npm run dev
 
-# OR run separately
-# Backend
-cd backend && npm start
+# Or run separately
+cd backend
+npm start
 
-# Frontend
-cd frontend && npm start
+cd ../frontend
+npm start
 ```
 
-Visit `http://localhost:3000` to see the application.
+Open http://localhost:3000 in your browser.
 
-## 📝 API Documentation
+---
 
-### Authentication Endpoints
-```
-POST /api/auth/register    # User registration
-POST /api/auth/login       # User login
-POST /api/auth/verify      # Email verification
-```
+## API Highlights
 
-### Plant Management
-```
-GET    /api/plants         # Get user's plants
-POST   /api/plants         # Add new plant
-PUT    /api/plants/:id     # Update plant
-DELETE /api/plants/:id     # Delete plant
+Authentication:
+
+```text
+POST /api/auth/register
+POST /api/auth/login
+POST /api/auth/verify
 ```
 
-### AI Assistant
-```
-POST /api/chat/message     # Send message to AI
-GET  /api/chat/history     # Get conversation history
-```
+Plant Management:
 
-### Disease Detection
-```
-POST /api/diagnosis/analyze  # Analyze plant image
-GET  /api/diagnosis/history  # Get diagnosis history
+```text
+GET    /api/plants
+POST   /api/plants
+PUT    /api/plants/:id
+DELETE /api/plants/:id
 ```
 
-### Development Workflow
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+AI Assistant:
 
-### Code Style
-- Follow ESLint configuration
-- Use Prettier for formatting
-- Write meaningful commit messages
-- Add tests for new features
+```text
+POST /api/chat/message
+GET  /api/chat/history
+```
 
+Disease Detection:
 
-## 👥 Team
+```text
+POST /api/diagnosis/analyze
+GET  /api/diagnosis/history
+```
 
-| Name | Role | 
+---
+
+## Team
+
+| Name | Role |
 |------|------|
-| **Aryan Kesarwani** | Backend Developer |
-| **Salugu Harshita Bhanu** | Frontend & Security | 
-| **Prakriti Das** | AI/ML Specialist | 
-| **Divanshu Bhargava** | AI/ML Specialist | 
-## 🙏 Acknowledgments
+| Aryan Kesarwani | Backend Developer |
+| Salugu Harshita Bhanu | Frontend and Security |
+| Prakriti Das | AI and ML Specialist |
+| Divanshu Bhargava | AI and ML Specialist |
 
-- [Google Gemini AI](https://ai.google.dev/) for conversational AI capabilities
-- [TensorFlow](https://tensorflow.org/) for machine learning framework
+---
+
+## Acknowledgments
+
+- [Google Gemini AI](https://ai.google.dev/) for conversational intelligence
+- [TensorFlow](https://tensorflow.org/) for machine learning foundations
 - [Plant Disease Dataset](https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset) contributors
-- Open source community for various tools and libraries
+- Open-source contributors whose tools power this platform
 
-## 📞 Support
-- **Issues**: [GitHub Issues](https://github.com/Git-brintsi20/HackByte_3.0/issues)
-- **Email**: shiki2hustle@gmail.com
+---
 
-## ⭐ Show Your Support
+## Support
 
-If you find PlantZ helpful, please consider giving it a star on GitHub! Your support helps us continue improving the platform.
+- Issues: [GitHub Issues](https://github.com/Git-brintsi20/HackByte_3.0/issues)
+- Email: shiki2hustle@gmail.com
 
 ---
 
 <div align="center">
-  <strong>PlantZ - Breaking down the red tape of plant care, one leaf at a time.</strong>
+  <strong>If PlantZ inspired you, a star on GitHub helps us grow.</strong>
   <br>
-  Made with 💚 by the PlantZ Team
+  Built with care by Team PlantZ.
 </div>
 
